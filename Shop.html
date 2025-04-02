@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Store Website</title>
+    <link rel="stylesheet" href="ShopStyle.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Mobile Shop</h1>
+        </div>
+        <div class="nav-items">
+            <div class="nav-item"><a href="#section1">Home</a></div>
+            <div class="nav-item"><a href="#section2">About</a></div>
+            <div class="nav-item"><a href="#section3">Products</a></div>
+            <div class="nav-item"><a href="#section4">Contact</a></div>
+        </div>
+    </nav>
+
+    <section id="section1">
+        <div>
+            <h1>Welcome to Our Mobile Store</h1>
+            <p>Discover the latest smartphones and accessories at unbeatable prices! Shop with us and enjoy exclusive
+                deals, latest technology, and unbeatable customer support.</p>
+        </div>
+        <img src="Shop.jpeg" height="450px" class="shop" />
+    </section>
+
+    <section id="section2">
+        <h1>About Us</h1>
+        <div class="about-cards">
+            <div class="card">
+                <h2>Our Expertise</h2>
+                <p>We specialize in cutting-edge mobile technology, offering a wide range of products to satisfy all
+                    your mobile needs.</p>
+            </div>
+            <div class="card">
+                <h2>Our Mission</h2>
+                <p>From the latest devices to essential accessories, our mission is to provide quality products and
+                    exceptional service.</p>
+            </div>
+            <div class="card">
+                <h2>Our Team</h2>
+                <p>Our knowledgeable staff is here to help you choose the perfect device and stay connected.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section4">
+        <h1>Contact Us</h1>
+        <p>Fill out the form below to inquire about our products or services. We're here to help!</p>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="youremail@example.com">
+
+            <label for="model">Mobile Model Interested In:</label>
+            <select id="model" name="model" required>
+                <option value="">Select a model</option>
+                <option value="iphone-14">iPhone 14</option>
+                <option value="samsung-galaxy-s21">Samsung Galaxy S21</option>
+                <option value="google-pixel-6">Google Pixel 6</option>
+                <option value="oneplus-9">OnePlus 9</option>
+                <option value="xiaomi-mi-11">Xiaomi Mi 11</option>
+            </select>
+
+            <label for="message">Message/Inquiry:</label>
+            <textarea id="message" name="message" rows="4" required
+                placeholder="Let us know your questions or concerns"></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mobile Store. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
